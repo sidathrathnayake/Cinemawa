@@ -2,7 +2,7 @@ require('dotenv').config({path: "./config.env"});
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const ConnectDB = require('./database/demo_yts_db');
+const ConnectDB = require('./database/cinemawa_db');
 
 //Database connection
 ConnectDB();
